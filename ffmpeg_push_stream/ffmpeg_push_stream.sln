@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ffmpeg_push_stream", "ffmpeg_push_stream\ffmpeg_push_stream.vcxproj", "{F8CF4336-BA44-44D0-956F-099CEFA94B4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{3F09F25D-353F-4FB7-A78C-78E328DBA2E6}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "livego", "server\livego.exe", "{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\server\livego.exe
+		RemoteMachine = DESKTOP-6686OR9
+		StartingDirectory = C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\server
+		Environment = 默认值
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Debug|Win32.Build.0 = Debug|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Debug|x64.ActiveCfg = Debug|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Release|Win32.ActiveCfg = Release|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Release|Win32.Build.0 = Release|Win32
+		{F8CF4336-BA44-44D0-956F-099CEFA94B4A}.Release|x64.ActiveCfg = Release|Win32
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Debug|Win32.ActiveCfg = Debug|x64
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Debug|x64.ActiveCfg = Debug|x64
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Release|Mixed Platforms.ActiveCfg = Debug|x64
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Release|Win32.ActiveCfg = Debug|x64
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7}.Release|x64.ActiveCfg = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B33FCF80-3CC4-4CB2-AAD4-A61FF99E0CD7} = {3F09F25D-353F-4FB7-A78C-78E328DBA2E6}
+	EndGlobalSection
+EndGlobal

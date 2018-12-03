@@ -1,0 +1,28 @@
+﻿生成启动时间为 2018/12/3 21:25:20。
+     1>项目“C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\ffmpeg_push_stream.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ffmpeg_push_stream.cpp
+         ffmpeg_push_stream.cpp
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(66): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(130): warning C4244: “初始化”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(131): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(133): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(144): warning C4244: “参数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+     1>c:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.cpp(153): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.exe" /NOLOGO /LIBPATH:../lib avcodec.lib avformat.lib avutil.lib avdevice.lib avfilter.lib postproc.lib swresample.lib swscale.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ffmpeg_push_stream.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.lib" /MACHINE:X86 Debug\ffmpeg_push_stream.obj
+         LINK : 没有找到 C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.exe 或上一个增量链接没有生成它；正在执行完全链接
+         ffmpeg_push_stream.vcxproj -> C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\Debug\ffmpeg_push_stream.exe;#1" /manifest Debug\ffmpeg_push_stream.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ffmpeg_push_stream.unsuccessfulbuild”。
+         正在对“Debug\ffmpeg_push_stream.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\project\open source\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream\ffmpeg_push_stream.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.79
